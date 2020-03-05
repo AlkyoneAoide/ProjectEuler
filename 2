@@ -1,0 +1,17 @@
+#!/bin/bash
+
+num1=1
+num2=2
+
+for i in {1..10}
+do
+
+num=$((num1 + num2))
+
+echo $num
+
+num1=$num2
+
+num2=$num
+
+done
