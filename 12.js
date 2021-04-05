@@ -20,7 +20,6 @@
         if (d > dmax) {
             dmax = d
             console.log("t:", t, "n:", n, "dmax:", dmax)
-
         }
 
         if (d > 500) {
